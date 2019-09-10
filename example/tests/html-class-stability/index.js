@@ -20,12 +20,6 @@ class App extends React.Component {
         <ReactTether
           className={classes}
           attachment="top center"
-          constraints={[
-            {
-              to: 'scrollParent',
-              attachment: 'together',
-            },
-          ]}
           renderTarget={ref => (
             <div ref={ref}>
               <button
