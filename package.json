@@ -1,6 +1,6 @@
 {
-  "name": "react-tether",
-  "version": "2.0.7",
+  "name": "rangel-react-tether",
+  "version": "2.1.7",
   "description": "Drop content anywhere on the page.",
   "main": "lib/react-tether.js",
   "types": "lib/react-tether.d.ts",
@@ -24,28 +24,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danreeves/react-tether"
+    "url": "https://github.com/RANGELJ/rangel-react-tether"
   },
   "keywords": [
     "react",
-    "react-tether",
+    "rangel-react-tether",
     "tether",
     "component",
     "drop"
   ],
   "author": "Travis Arnold <travis@souporserious.com> (http://souporserious.com)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/danreeves/react-tether/issues"
-  },
-  "homepage": "https://github.com/danreeves/react-tether",
+  "homepage": "https://github.com/RANGELJ/rangel-react-tether",
   "dependencies": {
     "prop-types": "^15.6.2",
     "tether": "^1.4.5"
   },
   "peerDependencies": {
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
@@ -56,7 +53,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@types/react": "^16.7.6",
-    "@types/react-dom": "^16.0.9",
+    "@types/react-dom": "^17.0.2",
     "@types/tether": "^1.4.4",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
@@ -80,7 +77,7 @@
     "parcel-bundler": "^1.10.3",
     "prettier": "^1.15.2",
     "pretty-quick": "^1.8.0",
-    "react": "^16.6.3",
+    "react": "^17.0.2",
     "react-dom": "^16.6.3",
     "react-draggable": "3.0.5",
     "strip-indent": "2.0.0",
